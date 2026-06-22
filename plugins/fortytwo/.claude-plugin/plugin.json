@@ -1,0 +1,9 @@
+{
+  "name": "fortytwo",
+  "version": "0.1.0",
+  "description": "Umbrella plugin for the justfortytwo personal assistant: skills for first-run onboarding and self-update. Composes with the memory MCP server and the gate PreToolUse hook.",
+  "author": { "name": "justfortytwo" },
+  "license": "MIT",
+  "homepage": "https://github.com/justfortytwo/marketplace",
+  "keywords": ["fortytwo", "personal-assistant", "onboarding", "self-update", "skills"]
+}

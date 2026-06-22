@@ -1,0 +1,21 @@
+{
+  "name": "justfortytwo",
+  "owner": { "name": "justfortytwo" },
+  "plugins": [
+    {
+      "name": "gate",
+      "source": { "source": "github", "repo": "justfortytwo/gate" },
+      "description": "Standalone PreToolUse safety gate for Claude Code."
+    },
+    {
+      "name": "memory",
+      "source": { "source": "github", "repo": "justfortytwo/memory" },
+      "description": "Semantic-memory MCP server (SQLite + Ollama embeddings)."
+    },
+    {
+      "name": "fortytwo",
+      "source": "./plugins/fortytwo",
+      "description": "Umbrella plugin: skills for onboarding + self-update."
+    }
+  ]
+}
