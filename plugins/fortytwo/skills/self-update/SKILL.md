@@ -10,7 +10,7 @@ description: Refresh fortytwo and its plugins, then verify health. On-demand, pr
 Keep fortytwo current without surprising the owner. Updates touch two independent layers:
 
 - **Plugin catalog** (Claude Code native): `/plugin marketplace update` re-fetches the
-  `justfortytwo` marketplace and any installed plugins (`gate`, `memory`, `fortytwo`).
+  `justfortytwo` marketplace and any installed plugins (`vogon`, `guide`, `fortytwo`).
 - **Engine + scaffold** (npm): `fortytwo update` bumps the CLI/engine and re-runs idempotent
   scaffold migrations against the owner's workspace.
 
@@ -28,7 +28,7 @@ new version is detected, but must wait for a yes.
 3. **Update the engine/scaffold.** Run `fortytwo update`. Report engine version + any
    scaffold migrations applied.
 4. **Verify.** Run `fortytwo doctor` and surface the full report verbatim
-   (memory MCP reachable, gate hook wired, persona/context intact, versions aligned).
+   (guide MCP reachable, vogon hook wired, persona/context intact, versions aligned).
 5. **On failure.** If `doctor` reports a regression or any step errors, instruct the owner to
    run `fortytwo rollback` to restore the previous known-good state, then report what failed.
 
