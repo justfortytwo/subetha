@@ -48,3 +48,7 @@ Each plugin installs independently; `fortytwo` is most useful with `guide` and `
 ## License
 
 MIT — Copyright (c) 2026 justfortytwo.
+
+---
+
+Created and maintained by [**Enrico Deleo**](https://enricodeleo.com).

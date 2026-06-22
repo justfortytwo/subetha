@@ -1,6 +1,6 @@
 {
   "name": "justfortytwo",
-  "owner": { "name": "justfortytwo" },
+  "owner": { "name": "Enrico Deleo", "url": "https://enricodeleo.com" },
   "plugins": [
     {
       "name": "vogon",
