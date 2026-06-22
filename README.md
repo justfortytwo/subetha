@@ -1,6 +1,6 @@
-# justfortytwo marketplace
+# fortytwo marketplace
 
-The Claude Code plugin marketplace for **justfortytwo** — an open-source decomposition
+The Claude Code plugin marketplace for **fortytwo** — an open-source decomposition
 of the "Ford" personal assistant into independent, composable pieces.
 
 This repo is a single git repo containing `.claude-plugin/marketplace.json`, which catalogs
@@ -17,9 +17,9 @@ Add the marketplace once:
 Then install whichever plugins you want:
 
 ```
-/plugin install vogon@justfortytwo
-/plugin install guide@justfortytwo
-/plugin install fortytwo@justfortytwo
+/plugin install vogon@fortytwo
+/plugin install guide@fortytwo
+/plugin install fortytwo@fortytwo
 ```
 
 Keep everything current with:
@@ -47,7 +47,7 @@ Each plugin installs independently; `fortytwo` is most useful with `guide` and `
 
 ## License
 
-MIT — Copyright (c) 2026 justfortytwo.
+MIT — Copyright (c) 2026 Enrico Deleo.
 
 ---
 

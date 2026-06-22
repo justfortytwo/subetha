@@ -10,7 +10,7 @@ description: Refresh fortytwo and its plugins, then verify health. On-demand, pr
 Keep fortytwo current without surprising the owner. Updates touch two independent layers:
 
 - **Plugin catalog** (Claude Code native): `/plugin marketplace update` re-fetches the
-  `justfortytwo` marketplace and any installed plugins (`vogon`, `guide`, `fortytwo`).
+  `fortytwo` marketplace and any installed plugins (`vogon`, `guide`, `fortytwo`).
 - **Engine + scaffold** (npm): `fortytwo update` bumps the CLI/engine and re-runs idempotent
   scaffold migrations against the owner's workspace.
 

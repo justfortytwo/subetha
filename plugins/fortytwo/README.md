@@ -1,6 +1,6 @@
 # fortytwo (umbrella plugin)
 
-The umbrella plugin for the **justfortytwo** personal assistant. It bundles the skills that
+The umbrella plugin for the **fortytwo** personal assistant. It bundles the skills that
 set the assistant up and keep it current. It carries no runtime code of its own — the heavy
 lifting lives in the companion packages.
 
@@ -8,7 +8,7 @@ lifting lives in the companion packages.
 
 ```
 /plugin marketplace add justfortytwo/subetha
-/plugin install fortytwo@justfortytwo
+/plugin install fortytwo@fortytwo
 ```
 
 ## Skills
@@ -27,10 +27,10 @@ lifting lives in the companion packages.
 
 The umbrella plugin is intentionally thin and leans on its siblings:
 
-- **guide MCP** (`guide@justfortytwo`) — onboarding stores the owner's *deep* profile here
+- **guide MCP** (`guide@fortytwo`) — onboarding stores the owner's *deep* profile here
   (a concise summary goes into the persona); self-update's `doctor` check confirms the MCP is
   reachable. Install `guide` for the profile and recall to work end-to-end.
-- **vogon hook** (`vogon@justfortytwo`) — the PreToolUse safety gate. Onboarding's link auto-fetch
+- **vogon hook** (`vogon@fortytwo`) — the PreToolUse safety gate. Onboarding's link auto-fetch
   and any external actions pass through `vogon`, which enforces the safety boundary independently
   of these skills. Install `vogon` so untrusted-content fetches stay policed.
 
@@ -38,4 +38,4 @@ Each can be installed on its own, but `fortytwo` is designed to run alongside bo
 
 ## License
 
-MIT — Copyright (c) 2026 justfortytwo.
+MIT — Copyright (c) 2026 Enrico Deleo.
