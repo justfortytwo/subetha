@@ -30,11 +30,11 @@ describe('marketplace.json', () => {
     expect(mk.owner?.name).toBeTruthy();
   });
 
-  it('lists vogon, guide, and the fortytwo umbrella with valid sources', () => {
+  it('lists gate, memory, and the fortytwo umbrella with valid sources', () => {
     const byName: Record<string, any> = Object.fromEntries(mk.plugins.map((p: any) => [p.name, p]));
-    expect(Object.keys(byName).sort()).toEqual(['fortytwo', 'guide', 'vogon']);
-    expect(byName.vogon.source).toMatchObject({ source: 'github', repo: 'justfortytwo/vogon' });
-    expect(byName.guide.source).toMatchObject({ source: 'github', repo: 'justfortytwo/guide' });
+    expect(Object.keys(byName).sort()).toEqual(['fortytwo', 'gate', 'memory']);
+    expect(byName.gate.source).toMatchObject({ source: 'github', repo: 'justfortytwo/gate' });
+    expect(byName.memory.source).toMatchObject({ source: 'github', repo: 'justfortytwo/memory' });
     expect(byName.fortytwo.source).toBe('./plugins/fortytwo'); // bundled in this repo
     for (const p of mk.plugins) expect(p.description?.length).toBeGreaterThan(10);
   });

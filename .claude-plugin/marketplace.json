@@ -3,13 +3,13 @@
   "owner": { "name": "Enrico Deleo", "url": "https://enricodeleo.com" },
   "plugins": [
     {
-      "name": "vogon",
-      "source": { "source": "github", "repo": "justfortytwo/vogon" },
+      "name": "gate",
+      "source": { "source": "github", "repo": "justfortytwo/gate" },
       "description": "Standalone PreToolUse safety gate for Claude Code."
     },
     {
-      "name": "guide",
-      "source": { "source": "github", "repo": "justfortytwo/guide" },
+      "name": "memory",
+      "source": { "source": "github", "repo": "justfortytwo/memory" },
       "description": "Semantic-memory MCP server (SQLite + Ollama embeddings)."
     },
     {

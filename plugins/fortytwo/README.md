@@ -7,7 +7,7 @@ lifting lives in the companion packages.
 ## Install
 
 ```
-/plugin marketplace add justfortytwo/subetha
+/plugin marketplace add justfortytwo/marketplace
 /plugin install fortytwo@fortytwo
 ```
 
@@ -27,12 +27,12 @@ lifting lives in the companion packages.
 
 The umbrella plugin is intentionally thin and leans on its siblings:
 
-- **guide MCP** (`guide@fortytwo`) — onboarding stores the owner's *deep* profile here
+- **memory MCP** (`memory@fortytwo`) — onboarding stores the owner's *deep* profile here
   (a concise summary goes into the persona); self-update's `doctor` check confirms the MCP is
-  reachable. Install `guide` for the profile and recall to work end-to-end.
-- **vogon hook** (`vogon@fortytwo`) — the PreToolUse safety gate. Onboarding's link auto-fetch
-  and any external actions pass through `vogon`, which enforces the safety boundary independently
-  of these skills. Install `vogon` so untrusted-content fetches stay policed.
+  reachable. Install `memory` for the profile and recall to work end-to-end.
+- **gate hook** (`gate@fortytwo`) — the PreToolUse safety gate. Onboarding's link auto-fetch
+  and any external actions pass through `gate`, which enforces the safety boundary independently
+  of these skills. Install `gate` so untrusted-content fetches stay policed.
 
 Each can be installed on its own, but `fortytwo` is designed to run alongside both.
 

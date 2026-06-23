@@ -7,14 +7,14 @@ description: Refresh fortytwo and its plugins, then verify health. On-demand, pr
 
 Keep fortytwo current without surprising the owner. The engine-side commands
 (`fortytwo update`, `fortytwo doctor`, `fortytwo rollback`) live in the `fortytwo`
-npm package (the magrathea CLI); this skill orchestrates them alongside the native
+npm package (the installer CLI); this skill orchestrates them alongside the native
 Claude Code catalog refresh. It changes versions and scaffolding only — it never
 touches the owner's persona or context.
 
 Updates touch two independent layers that version separately and can drift:
 
 - **Plugin catalog** (Claude Code native): `/plugin marketplace update` re-fetches the
-  `fortytwo` marketplace and any installed plugins (`vogon`, `guide`, `fortytwo`).
+  `fortytwo` marketplace and any installed plugins (`gate`, `memory`, `fortytwo`).
 - **Engine + scaffold** (npm): `fortytwo update` bumps the CLI/engine and re-runs
   idempotent scaffold migrations against the owner's workspace.
 
@@ -63,7 +63,7 @@ broken step.
    ```
 
    Surface the **full report verbatim** — do not summarize away detail. The report
-   covers, at minimum: guide MCP reachable, vogon hook wired, persona/context files
+   covers, at minimum: memory MCP reachable, gate hook wired, persona/context files
    intact, and engine/catalog versions aligned. Read the overall status:
    - **Green / healthy** → done. Give the one-line summary (step 6).
    - **Red / regressed** → go to step 5.

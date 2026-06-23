@@ -43,7 +43,7 @@ This is a **prompt-injection boundary**. The interview itself is trusted; everyt
    skill never edits those files directly.
 4. **Split storage:**
    - a **concise summary** → the persona (the always-loaded, human-recognizable sketch);
-   - the **deep profile** → the **guide MCP** (retrievable detail, not always in context).
+   - the **deep profile** → the **memory MCP** (retrievable detail, not always in context).
 5. **Tag provenance** on every claim: `source` (link/upload/test/interview) + `date`, and
    `observed` vs. `inferred`. Inferred claims stay clearly hedged.
 

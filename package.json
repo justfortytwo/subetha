@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": { "name": "Enrico Deleo", "url": "https://enricodeleo.com" },
   "homepage": "https://forty-two.it",
-  "repository": { "type": "git", "url": "git+https://github.com/justfortytwo/subetha.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/justfortytwo/marketplace.git" },
   "type": "module",
   "scripts": {
     "test": "vitest run"

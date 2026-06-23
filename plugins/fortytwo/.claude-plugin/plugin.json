@@ -1,9 +1,9 @@
 {
   "name": "fortytwo",
   "version": "0.1.0",
-  "description": "Umbrella plugin for the fortytwo personal assistant: skills for first-run onboarding and self-update. Composes with the guide MCP server and the vogon PreToolUse hook.",
+  "description": "Umbrella plugin for the fortytwo personal assistant: skills for first-run onboarding and self-update. Composes with the memory MCP server and the gate PreToolUse hook.",
   "author": { "name": "Enrico Deleo", "url": "https://enricodeleo.com" },
   "license": "MIT",
-  "homepage": "https://github.com/justfortytwo/subetha",
+  "homepage": "https://github.com/justfortytwo/marketplace",
   "keywords": ["fortytwo", "personal-assistant", "onboarding", "self-update", "skills"]
 }
