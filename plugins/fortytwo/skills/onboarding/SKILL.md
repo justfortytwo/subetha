@@ -5,8 +5,6 @@ description: Warm first-run interview that gets to know the owner. Collects link
 
 # Onboarding
 
-> STUB — describes intended behavior; the actual writing is delegated to `fortytwo init`'s module (one writer).
-
 A warm, conversational first-run interview. The goal is to build an accurate `ownerProfile`
 the owner recognizes as themselves — not to impress them, and not to over-fit a personality label.
 
