@@ -22,6 +22,12 @@ Then install whichever plugins you want:
 /plugin install fortytwo@fortytwo
 ```
 
+The umbrella **fortytwo** plugin ships **skills only** (onboarding + self-update) — it
+carries no hooks, agents, or MCP servers of its own. The safety-gate hook lives in the
+separate **gate** plugin and the memory MCP server in the separate **memory** plugin, so
+installing `fortytwo@fortytwo` alone gives you the skills but neither the hook nor the
+MCP. Install `gate@fortytwo` and `memory@fortytwo` alongside it for the full assistant.
+
 Keep everything current with:
 
 ```
@@ -44,6 +50,15 @@ Keep everything current with:
   writing the owner's deep profile into **memory** and relying on **gate** for safety.
 
 Each plugin installs independently; `fortytwo` is most useful with `memory` and `gate` present.
+
+## Requirements
+
+- The onboarding and self-update skills in **fortytwo** drive the `fortytwo` npm CLI
+  (`fortytwo init` / `update` / `doctor` / `rollback`), so that CLI must be on your PATH:
+  `npm i -g @justfortytwo/installer` (or run it locally). A marketplace-only install won't
+  have it.
+- **memory** needs a local [Ollama](https://ollama.com) runtime plus the embedding model
+  pulled for semantic recall.
 
 ## License
 
